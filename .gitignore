@@ -388,3 +388,19 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Addition by Author
+/coverage
+/dist
+/cypress
+/uploads
+.idea
+.DS_Store
+.env
+.vscode
+
+npm-debug.log*
+.coveralls.yml
+**/*/videos
+tests/e2e/videos
+package-lock.json
